@@ -1,0 +1,156 @@
+.td_tts_bg {
+    width:95%;
+    background-color: #e2e2e2;
+    font-size:11px;
+    border-radius:10px;
+    padding:15px;
+    margin-bottom:10px;
+}
+.td_tts_bg:hover {
+    background-color: #f0f0f0;
+}
+.td_tts_ticket_header a, .td_tts_ticket_headerAdmin a {
+    font-size:14px !important;
+}
+.td_tts_statusMess {
+  float:left;
+  width:25%;
+  font-size:14px;
+    
+}
+.td_tts_ticket_headerAdmin {
+    float:left;
+    width:35%;
+}
+.td_tts_recOn {
+    float:left;
+    width:20%;
+}
+.td_tts_upOn {
+    float:left;
+    width:20%;
+}
+.td_tts_ticketBody {
+    float:right;
+    width:75%;
+}
+.td_tts_altbg {
+    background-color: #e0e0e0;
+    font-size:11px;
+}
+.td_tts_altbg:hover {
+    background-color: #fff;
+}
+.td_tts_readMessageLabel {
+    float:left;
+    width:20%;
+}
+.td_tts_readMessageValue {
+    float:left;
+    width:80%;
+    font-size:12px;
+}
+.td_tts_contentPadding {
+   padding:3px 0 3px 10px; 
+}
+#td_tts_statusFilterBar {
+    padding:0 0 10px 0;
+}
+#td_tts_header_cols {
+    width:925px;
+    border-bottom:1px solid #e0e0e0;
+    font-weight:bold;
+}
+#td_tts_resizeWindow {
+    display:none;
+    position:absolute;
+    top:50px;
+    left:75px;
+    padding:15px 15px 15px 15px;
+    width:500px;
+    height:500px;
+    z-index:10000;
+    background:#f0f0f0;
+    border:1px solid #888;
+    box-shadow: 0px 0px 25px #222;
+    overflow: hidden;
+}
+#tdtts_loading_panel {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:15000;
+    background:#f0f0f0;
+    text-align:center;
+}
+#tdtts_message_panel {
+    width:100%;
+    height:98%;
+    padding:0 8px 0 0;
+    overflow-y:auto;
+}
+#td_tts_messageBox {
+    padding:5px 10px 5px 10px;
+    border:1px solid #666;
+    background:#fff;
+    line-height:20px;
+}
+.td_tts_responseBox {
+    padding:5px 10px 15px 10px;
+    line-height:20px;
+}
+.td_tts_responseHeader {
+    font-style: italic;
+    font-size:11px;
+    color:#666;
+}
+#td_tts_messageBoxHeader {
+    font-size:11px;
+    font-style: italic;
+}
+.td_tts_formField {
+    padding:0 0 8px 0;
+    line-height:20px;
+}
+#td_tts_errorMessages{
+    display:none;
+    color:red;
+    padding:8px 0 8px 0;
+}
+#td_tts_userHold {
+    position:relative;
+}
+
+@media screen and (max-width: 600px) {
+    .td_tts_ticket_headerAdmin {
+        float:none;
+        width:100%;
+    }
+    .td_tts_recOn {
+        float:none;
+        width:100%;
+    }
+    .td_tts_upOn {
+        float:none;
+        width:100%;
+    }
+    .td_tts_statusMess{
+        float: none;
+        width:100%;   
+    }
+    .td_tts_ticketBody {
+        float:none;
+        width:100%;
+    }
+    .td_tts_bg {
+        width: 90%;
+    }
+    #td_tts_resizeWindow {
+        top:0px;
+        left:0px;
+        width:80%;
+        height:300px;
+    }
+}
